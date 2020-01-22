@@ -1,4 +1,4 @@
-# uptimerobot-proxmox-securitygroup
+# UptimeRobot Proxmox Firewall Security Group Ruleset
 A security group ruleset for Proxmox firewalls to allow connections from UptimeRobot for server monitoring. This setup checks the destination port 8006 (the default port for the Proxmox Web UI), so if you have changed the port make sure you do so in the security group as well.
 
 
