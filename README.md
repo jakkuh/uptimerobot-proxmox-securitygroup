@@ -3,9 +3,9 @@ A security group ruleset for Proxmox firewalls to allow connections from UptimeR
 
 ### Instructions
 1. Copy the entire contents of `cluster.fw` in this GitHub repository into `/etc/pve/firewall/cluster.fw` after the `enable: 1` line (line 3) on the Proxmox server you wish to use the Security Group on.
-   1. The file should look like this when complete assuming you have no other Security Groups or Datacenter level firewall rules imposed. https://i.imgur.com/43rrdgN.png
+   1. The file should look like this when complete assuming you have no other Security Groups or Datacenter level firewall rules imposed. https://i.imgur.com/e7kKUqf.png
 2. Check the `Datacenter>Firewall>Security Group` tab to verify the Security Group was successfully added. 
-   1. The tab should show the "uptimerobot" firewall group with all the IPs added in. https://i.imgur.com/NoyzpYi.png
+   1. The tab should show the "uptimerobot" firewall group with all the IPs added in. https://i.imgur.com/gSSXIUk.png
 3. Navigate to `Datacenter>SERVERNAME>Firewall` and click `Insert: Security Group` to add in the ruleset. Select `uptimerobot` as the Security Group and enter your WAN/external network Interface.
    1. Here's what the entry should look like. https://i.imgur.com/xDGnrhK.png
 4. Bam, done, success! :D
