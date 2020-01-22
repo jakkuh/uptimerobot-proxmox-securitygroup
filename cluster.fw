@@ -1,1 +1,26 @@
+[group uptimerobot]
 
+IN ACCEPT -source 54.94.142.218 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 54.79.28.129 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 54.67.10.127 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 54.64.67.106 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 52.60.129.180 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 46.137.190.132 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 46.101.250.135 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 34.233.66.117 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 216.144.250.150 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 188.226.183.141 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 18.221.56.27 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 178.62.52.237 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 165.227.83.148 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 159.89.8.111 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 159.203.30.41 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 146.185.143.14 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 139.59.173.249 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 138.197.150.151 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 128.199.195.156 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 122.248.234.23 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 104.131.107.63 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 216.245.221.80/28 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 63.143.42.240/28 -p tcp -dport 8006 -log nolog # uptimerobot
+IN ACCEPT -source 69.162.124.224/28 -p tcp -dport 8006 -log nolog # uptimerobot
