@@ -8,6 +8,7 @@ A security group ruleset for Proxmox firewalls to allow connections from UptimeR
    1. The tab should show the "uptimerobot" firewall group with all the IPs added in. https://i.imgur.com/NoyzpYi.png
 3. Navigate to `Datacenter>SERVERNAME>Firewall` and click `Insert: Security Group` to add in the ruleset. Select `uptimerobot` as the Security Group and enter your WAN/external network Interface.
    1. Here's what the entry should look like. https://i.imgur.com/xDGnrhK.png
+4. Bam, done, success! :D
 
 ### Currently Allowed IPs (updated Jan 21, 2020):
 
